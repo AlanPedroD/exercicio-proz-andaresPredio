@@ -1,17 +1,20 @@
+#Opção com For
 for i in range(21):
     if(i == 13):
         continue
     print(i)
 
-print('-' * 12)
+#Opção com while
 
 i = 0
 while i < 21:
     if i != 13:
         print(i)
-    i += 1  # Incrementa 'i' em todas as iterações, no final
+    i += 1
 
 print('-' * 10)
+
+#Imprimindo em ordem decrescente
 
 for cont in range(20, -1, -1):
     if(cont == 13):
